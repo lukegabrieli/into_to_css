@@ -1,0 +1,82 @@
+body {
+  width: 901px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.deliciousTitle {
+  position: relative;
+  display: inline;
+}
+
+.delicousSubTitle {
+  position: relative;
+  display: inline;
+}
+
+.navIcon {
+  display: inline-block;
+}
+
+.navIcon:nth-child(6){
+  margin-right: 10px;
+}
+
+.mainNav {
+  list-style-type: none;
+  float: right;
+}
+
+.ingredients {
+  background: url(list-bg.png);
+  columns: 2;
+}
+
+.mainTitle {
+  font-size: 3em;
+}
+
+.mainSubTitle {
+  font-size: .8em;
+  text-transform: uppercase;
+  color: grey;
+}
+
+.directions {
+  text-indent: 50px;
+}
+
+.vanessaImage {
+  display: inline;
+}
+
+.vanessaText {
+  position: relative;
+  display: inline;
+}
+
+.vanessaBio {
+  position: relative;
+  display: inline;
+}
+
+button {
+  float:right;
+}
+
+footer {
+  text-align: center;
+}
+
+.smallLogo {
+  width: 31px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footerText {
+  color: grey;
+}
+
+
+
