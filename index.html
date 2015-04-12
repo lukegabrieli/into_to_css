@@ -9,83 +9,103 @@
 
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="style_2.css">
     <script src="file"></script>
   </head>
   <body>
+    <div class="container_12">
+      <!--[if lt IE 8]>
+          <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+      <div class="topHeader">
+        <img class="deliciousImage" src="logo.png" alt="Delicious Logo"/>
+        <header>
+    	    <h1 class="deliciousTitle">Delicious</h1>
+    	    <h2 class="deliciousSubTitle">The Best Food Blog On The Web.</h2>
+    	  </header>
+    	  <nav class="mainNav">
+    	    <ul>
+    	      <li class="navIcon"><img src="fb-icon.png" alt="Facebook Icon"></li>
+    	      <li class="navIcon"><img src="twit-icon.png" alt="Twitter Icon"></li>
+    	      <li class="navIcon"><img src="gp-icon.png" alt="Google Plus Icon"></li>
+    	      <li class="navIcon"><img src="insta-icon.png" alt="Instagram Icon"></li>
+    	      <li class="navIcon"><img src="flic-icon.png" alt="Flic Icon"></li>
+    	      <li class="navIcon"><img src="pint-icon.png" alt="Pinterest Icon"></li>
+    	      <li class="navIcon"><img src="rss-icon.png" alt="RSS Icon"></li>
+    	      <li class="navIcon"><img src="mail-icon.png" alt="Mail Icon"></li>
+    	    </ul>
+    	  </nav>
+      </div>
 
-    <!--[if lt IE 8]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+      <div class="dashBorder"></div>
 
-    <header>
-	    <img src="logo.png" alt="Delicious Logo"/>
-	    <h1 class="deliciousTitle">Delicious</h1>
-	    <h2 class="deliciousSubTitle">The Best Food Blog On The Web.</h2>
-	  </header>
-	  <nav class="mainNav">
-	    <ul>
-	      <li class="navIcon"><img src="fb-icon.png" alt="Facebook Icon"></li>
-	      <li class="navIcon"><img src="twit-icon.png" alt="Twitter Icon"></li>
-	      <li class="navIcon"><img src="gp-icon.png" alt="Google Plus Icon"></li>
-	      <li class="navIcon"><img src="insta-icon.png" alt="Instagram Icon"></li>
-	      <li class="navIcon"><img src="flic-icon.png" alt="Flic Icon"></li>
-	      <li class="navIcon"><img src="pint-icon.png" alt="Pinterest Icon"></li>
-	      <li class="navIcon"><img src="rss-icon.png" alt="RSS Icon"></li>
-	      <li class="navIcon"><img src="mail-icon.png" alt="Mail Icon"></li>
-	    </ul>
-	  </nav>
-	  <article>
-	    <section>
-	      <h1 class="mainTitle">Chocolate Pizza</h1>
-	      <h2 class="mainSubTitle">Posted On 15 Dec 2013 / Desserts</h2>
-	      <img src="print-icon.png" alt="Print Icon">
-	      <h2 class="mainSubTitle">Print</h2>
-	      <img class="chocoPizza" src="choco-pizza.png" alt="Chocolate Pizza Image">
-	      <p class="directions">For the fig-swirl: Melt butter over medium heat in a saucepan. Add Brown sugar and stir to dissolbe. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
-	      <p class="directions">Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture int he fridge and wait until the fig mixture is cooled.</p>
-	      <p class="directions">Using an ice cream machine, pour liquids into frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
-	      <ul class="ingredients">
-	        <li>1 1/2 cups milk</li>
-	        <li>1/2 cup mascarpone</li>
-	        <li>1/2 tsp pink salt</li>
-	        <li>1 lb Black Mission Figs</li>
-	        <li>1/2 cup brown sugar</li>
-	        <li>2-4 tbsp water</li>
-	        <li>1 1/2 cups heavy cream</li>
-	        <li>1/3 granulate sugar</li>
-	        <li>2 egg yolks</li>
-	        <li>1 lemon, juiced</li>
-	        <li>2 tbsp butter</li>
-	        <li>1 cup honey roasted pecans, roughly chopped</li>
-	      </ul>
-	    </section>
-	    <section>
-	      <img class="vanessaImage" src="van-pic.png" alt="Vanessa Stevenson Image">
-	      <h1 class="vanessaText">Vanessa Stevenson</h1>
-	      <p class="vanessBio">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-	      <button>Share Recipe</button>
-	    </section>
-	  </article>
-	  <footer>
-	    <img class="smallLogo" src="small-logo.png" alt="Delicious Logo - Small">
-	    <p class="footerText">Delicious &copy; 2013. All Rights Reserved.</p>
-	    <p class="footerText">Proudly published with Ghost.</p>
-	  </footer>
+      <article>
+  	    <section>
+  	      <h1 class="mainTitle">Chocolate Pizza</h1>
+  	      <h2 class="mainSubTitle">Posted On 15 Dec 2013 / Desserts</h2>
+  	      <div class="print">
+            <img class="printIcon" src="print-icon.png" alt="Print Icon">
+    	      <h2 class="printText">Print</h2>
+          </div>
+  	      <img class="chocoPizza" src="choco-pizza.png" alt="Chocolate Pizza Image">
+  	      <p class="directions">For the fig-swirl: Melt butter over medium heat in a saucepan. Add Brown sugar and stir to dissolbe. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
+  	      <p class="directions">Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture int he fridge and wait until the fig mixture is cooled.</p>
+  	      <p class="directions">Using an ice cream machine, pour liquids into frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
+    	    <div class="ingredients">
+            <form class="ingredientsOne">
+    	        <input type="checkbox" name="ingredient" value="milk"><label for="ingredient">1 1/2 cups milk</label><br>
+    	        <input type="checkbox" name="ingredient" value="mascarpone"><label for="ingredient">1/2 cup mascarpone</label><br>
+    	        <input type="checkbox" name="ingredient" value="salt"><label for="ingredient">1/2 tsp pink salt</label><br>
+    	        <input type="checkbox" name="ingredient" value="figs"><label for="ingredient">1 lb Black Mission Figs</label><br>
+    	        <input type="checkbox" name="ingredient" value="sugar"><label for="ingredient">1/2 cup brown sugar</label><br>
+    	        <input type="checkbox" name="ingredient" value="water"><label for="ingredient">2-4 tbsp water</label><br>
+            </form>
+            <form class="ingredientsTwo">
+    	        <input type="checkbox" name="ingredient" value="cream"><label for="ingredient">1 1/2 cups heavy cream</label><br>
+    	        <input type="checkbox" name="ingredient" value="sugar"><label for="ingredient">1/3 granulate sugar</label><br>
+    	        <input type="checkbox" name="ingredient" value="egg"><label for="ingredient">2 egg yolks</label><br>
+    	        <input type="checkbox" name="ingredient" value="lemon"><label for="ingredient">1 lemon, juiced</label><br>
+    	        <input type="checkbox" name="ingredient" value="butter"><label for="ingredient">2 tbsp butter</label><br>
+    	        <input type="checkbox" name="ingredient" value="pecans"><label for="ingredient">1 cup honey roasted pecans, roughly chopped</label><br>
+    	      </form>
+          </div>
+  	    </section>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+        <div class="dashBorder"></div>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-    </script>
+  	    <section class="writerBio">
+  	      <img class="vanessaImage" src="van-pic.png" alt="Vanessa Stevenson Image">
+  	      <h1 class="vanessaText">Vanessa Stevenson</h1>
+  	      <p class="vanessaBio">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+  	      <button>Share Recipe</button>
+  	    </section>
+  	  </article>
+
+  	  <footer>
+        <div class="footerLine"></div>
+  	    <div class="footerMain">
+          <img class="smallLogo" src="small-logo.png" alt="Delicious Logo - Small">
+          <p class="footerText">Delicious &copy; 2013. All Rights Reserved.</p>
+          <p class="footerText">Proudly published with Ghost.</p>
+        </div>
+  	  </footer>
+
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+      <script src="js/plugins.js"></script>
+      <script src="js/main.js"></script>
+
+      <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+      <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+      </script>
+    </div>
   </body>
 </html>

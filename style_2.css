@@ -1,0 +1,180 @@
+@font-face {
+  font-family: 'Yellowtail';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Yellowtail'), url(http://fonts.gstatic.com/s/yellowtail/v6/GcIHC9QEwVkrA19LJU1qlAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+.container_12 {
+  width: 900px;
+}
+
+.topHeader {
+  margin-top: 30px;
+}
+
+.deliciousImage {
+  float: left;
+  margin-right: 10px;
+}
+
+.deliciousTitle {
+  position: relative;
+  display: inline-block;
+  font-family: Yellowtail;
+  font-size: 2.5em;
+  margin-top: -5px;
+}
+
+.deliciousSubTitle {
+  position: relative;
+  text-transform: uppercase;
+}
+
+.mainNav {
+  position: relative;
+  margin-top: -40px;
+  float: right;
+  list-style-type: none;
+}
+
+.navIcon {
+  display: inline-block;
+  margin-right: -2px;
+}
+
+.navIcon:nth-child(6){
+  margin-right: 8px;
+}
+
+.dashBorder {
+  height: 13px;
+  background-image: url("dash-Border.png");
+  background-repeat: repeat-x;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.print {
+  float: right;
+  margin-top: -20px;
+}
+
+.printIcon {
+  float: left;
+  margin-right: 3px;
+  margin-top: 2px;
+}
+
+.printText {
+  position: relative;
+  display: inline-block;
+  font-size: .8em;
+  text-transform: uppercase;
+  color: grey;
+}
+
+.mainTitle {
+  font-size: 3em;
+}
+
+.mainSubTitle {
+  font-size: .8em;
+  text-transform: uppercase;
+  color: grey;
+}
+
+.chocoPizza {
+  margin-top: 30px;
+}
+
+.directions {
+  text-indent: 30px;
+  color: #4e4e4e;
+  margin-top: 30px;
+  line-height: 150%;
+}
+
+.ingredients {
+  background: url(list-bg.png);
+  margin-top: 30px;
+  height: 305px;
+  font-size: 1.3em;
+  color: #4e4e4e;
+}
+
+.ingredientsOne {
+  position: relative;
+  display: inline-block;
+  margin-left: 70px;
+  margin-top: 40px;
+  line-height: 150%;
+}
+
+.ingredientsTwo {
+  position: relative;
+  display: inline-block;
+  margin-left: 100px;
+  line-height: 150%;
+}
+
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+}
+
+.vanessaImage {
+  float: left;
+  margin-right: 25px;
+}
+
+.vanessaText {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.vanessaBio {
+  width: 580px;
+  font-size: 1.2em;
+  line-height: 120%;
+  color: #4e4e4e;
+}
+
+button {
+  float: right;
+  width: 180px;
+  height: 50px;
+  background-color: #bc7058;
+  border: none;
+  font-size: 1.2em;
+  color: white;
+  margin-top: -40px;
+}
+
+.footerLine {
+  width: 100%;
+  height: 1px;
+  background-color: lightgrey;
+}
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.smallLogo {
+  width: 31px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  border: 10px solid white;
+}
+
+.footerText {
+  color: grey;
+  line-height: 150%;
+}
+
+.footerMain {
+  margin-top: -27px;
+}
