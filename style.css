@@ -1,0 +1,136 @@
+/* FONTS */
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(http://fonts.googleapis.com/css?family=Yellowtail);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(http://fonts.googleapis.com/css?family=Patrick+Hand);
+
+/*font-family: 'Droid Serif', serif;
+font-family: 'Yellowtail', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Patrick Hand', cursive;*/
+
+.body {
+  font-family: 'Droid Serif', serif;
+}
+
+.heading {}
+
+  .heading__title {
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+  }
+
+  .heading__subtitle {
+    font-family: 'Abel', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .heading__nav__icon {
+    display: inline-block;
+  }
+
+.dashBorder {
+  height: 13px;
+  background-image: url("dash-Border.png");
+  background-repeat: repeat-x;
+}
+
+.section1 {}
+
+  .section1__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  .section1__subtitle {
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: grey;
+  }
+
+  .section1__print__text{
+    font-family: 'Abel', sans-serif;
+    color: grey;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  .section1__p {
+    text-indent: 30px;
+    line-height: 164%;
+    color: #4e4e4e;
+  }
+
+  .section1__list {
+    background-image: url("list-bg.png");
+    font-family: 'Patrick Hand', cursive;
+    font-size: 24px;
+    line-height: 130%;
+    color: #6e6351;
+  }
+
+    .section1__list__list1, .section1__list__list2 {
+      list-style-image: url('unchecked.png');
+    }
+
+.section2 {}
+
+  .section2__title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #53544f;
+  }
+
+  .section2__p {
+    line-height: 150%;
+    color: #53544f;
+  }
+
+button {
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 186px;
+  height: 54px;
+  background-color: #bc7058;
+  border: none;
+  color: white;
+}
+
+.footerLine {
+  width: 100%;
+  height: 1px;
+  background-color: lightgrey;
+}
+
+footer {
+  text-align: center;
+}
+
+  .footer {
+    margin-top: -27px;
+  }
+
+    .footer__image {
+      border: 10px solid white;
+    }
+
+    .footer__p {
+      color: grey;
+      line-height: 160%;
+      font-size: 14px;
+    }
+
+.lineThrough {
+  text-decoration: line-through;
+}
+
+.checkedBox {
+  list-style-image: url('checked.png');
+}
